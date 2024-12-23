@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &741428767891665541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6481813368176740276}
+  - component: {fileID: 548527175556153942}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6481813368176740276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741428767891665541}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &548527175556153942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741428767891665541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb0176b7034d4b469ca42a143acf2b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - name: Piano key A
+    clip: {fileID: 8300000, guid: c3919c67fc4448142a320a3946182250, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key B
+    clip: {fileID: 8300000, guid: d46097f04b59111499340bc1ed36537a, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key C
+    clip: {fileID: 8300000, guid: 8bdaeb9bdc18e0b4ca4ee445466d39cb, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key D
+    clip: {fileID: 8300000, guid: c4ee26b884a7f324a8faeb8436e4fd8e, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key E
+    clip: {fileID: 8300000, guid: 6f98ce109e6ade2448441094cb02a901, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key F
+    clip: {fileID: 8300000, guid: 077dd71116106ee4b98eb6445ee8da52, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key G
+    clip: {fileID: 8300000, guid: ace6d0e575515e240b3cf49667d66088, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key F#
+    clip: {fileID: 8300000, guid: 994e0afde0d7ece48aabcf99ed616759, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key G#
+    clip: {fileID: 8300000, guid: 25e1e5ce98474df46b1cb4538c3f6970, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key A#
+    clip: {fileID: 8300000, guid: 1602c8bc8a9b0c94e84e8501bc4c12c0, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key C#
+    clip: {fileID: 8300000, guid: 782de4d64cd587c469b688430a1113eb, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Piano key D#
+    clip: {fileID: 8300000, guid: 048ba2e7faaa21b41a7b7f0026ed9059, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Mirror brokes
+    clip: {fileID: 8300000, guid: 47d8adf9c8c9c4348b8b5ba3e2f6b53a, type: 3}
+    volume: 1
+    loop: 0
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Hot water tap
+    clip: {fileID: 8300000, guid: 66205e930889d054f8f0ff2efd0a8a85, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Cold water tap
+    clip: {fileID: 8300000, guid: 66205e930889d054f8f0ff2efd0a8a85, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Open Door
+    clip: {fileID: 8300000, guid: 924d2cab62d21d5458c8001a8ba553ac, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: -2944401145832526346, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  musics:
+  - name: Menu Theme
+    clip: {fileID: 8300000, guid: bc9e17f679c936744bf53f5da9a9cd0b, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: 8306042514911532883, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Tutorial Cutscene
+    clip: {fileID: 8300000, guid: 5872b5baf3a372640bf392d737994c3f, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: 8306042514911532883, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Horror Ambient 1
+    clip: {fileID: 8300000, guid: 8fcb68b6b904b93478bc0da2c02ff747, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: 8306042514911532883, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Horror Ambient 2
+    clip: {fileID: 8300000, guid: ddc5f0fe20898ef47abf0d714fd35147, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: 8306042514911532883, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  - name: Horror Ambient 3
+    clip: {fileID: 8300000, guid: a8b16d067f693cb44bad632c0dedee31, type: 3}
+    volume: 1
+    loop: 1
+    audioMixerGroup: {fileID: 8306042514911532883, guid: 90641c1717e3a8b4b9aa2e250e6443b3, type: 2}
+    audioSource: {fileID: 0}
+  musicVolume: 1
+  soundEffectVolume: 1

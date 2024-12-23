@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Puzzle
+  - Item
+  - Canvas Item
+  - Inventory Slot
+  - Inventory Item
+  - Test
+  - Hide Spot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Puzzle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background Wall Layer
+    uniqueID: 1892838067
+    locked: 0
+  - name: Ground Layer
+    uniqueID: 2715273137
+    locked: 0
+  - name: Wall Layer
+    uniqueID: 81993219
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Puzzle
+    uniqueID: 4139050411
+    locked: 0
+  - name: UI
+    uniqueID: 951766817
+    locked: 0
