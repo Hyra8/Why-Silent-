@@ -1,10 +1,6 @@
 ﻿using System;
 using UnityEngine;
 
-/// <summary>
-/// Lớp quản lý âm thanh
-/// </summary>
-/// <author> Nguyễn Việt Hoàn </author>
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
@@ -47,10 +43,6 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    /// <summary>
-    /// Hàm chạy nhạc theo tên sound
-    /// </summary>
-    /// <param name="soundName">Tên sound</param>
     public void PlayMusic(string soundName)
     {
         Sound s = Array.Find(musics, sound => sound.name == soundName);
@@ -63,10 +55,6 @@ public class AudioManager : MonoBehaviour
         s.audioSource.Play();
     }
 
-    /// <summary>
-    /// Hàm tắt nhạc theo tên sound
-    /// </summary>
-    /// <param name="soundName">Tên sound</param>
     public void StopMusic(string soundName)
     {
         Sound s = Array.Find(musics, sound => sound.name == soundName);
@@ -78,10 +66,6 @@ public class AudioManager : MonoBehaviour
         s.audioSource.Stop();
     }
 
-    /// <summary>
-    /// Hàm chạy soundEffect theo tên sound
-    /// </summary>
-    /// <param name="soundName"></param>
     public void PlaySoundEffect(string soundName)
     {
         Sound s = Array.Find(soundEffects, sound => sound.name == soundName);
@@ -94,10 +78,6 @@ public class AudioManager : MonoBehaviour
         s.audioSource.Play();
     }
 
-    /// <summary>
-    /// Hàm tắt soundEffect theo tên sound
-    /// </summary>
-    /// <param name="soundName">tên Sound</param>
     public void StopSoundEffect(string soundName)
     {
         Sound s = Array.Find(soundEffects, sound => sound.name == soundName);

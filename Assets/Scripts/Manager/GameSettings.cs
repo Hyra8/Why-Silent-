@@ -28,41 +28,18 @@ public class GameSettings : MonoBehaviour
     }
     public void SetMusicVolume(float value)
     {
-        // Chuyển giá trị từ 0-1 sang dB
         float dB = (value > 0) ? Mathf.Log10(value) * 20 : -80f;
         audioMixer.SetFloat("MusicVolume", dB);
 
-        // Lưu giá trị volume (0-1) vào PlayerPrefs
         PlayerPrefs.SetFloat("MusicVolume", value);
-
-        //if (musicVolumeSlider.value == 0)
-        //{
-        //    audioMixer.SetFloat("MusicVolume", 0);
-        //}
-        //else
-        //{
-        //    audioMixer.SetFloat("MusicVolume", musicVolumeSlider.value); //Mathf.Log(musicSlider.value) * 20f);
-        //}
-        //PlayerPrefs.SetFloat("MusicVolume", musicVolumeSlider.value);
     }
     public void SetSFXVolume(float value)
     {
-        // Chuyển giá trị từ 0-1 sang dB
         float dB = (value > 0) ? Mathf.Log10(value) * 20 : -80f;
         audioMixer.SetFloat("SFXVolume", dB);
 
-        // Lưu giá trị volume (0-1) vào PlayerPrefs
         PlayerPrefs.SetFloat("SFXVolume", value);
 
-        //if (sfxVolumeSlider.value == 0)
-        //{
-        //    audioMixer.SetFloat("SFXVolume", 0);
-        //}
-        //else
-        //{
-        //    audioMixer.SetFloat("SFXVolume", sfxVolumeSlider.value);//Mathf.Log(volumeSlider.value) * 20f);
-        //}
-        //PlayerPrefs.SetFloat("SFXVolume", sfxVolumeSlider.value);
     }
     
     public void LoadSFXVolume()

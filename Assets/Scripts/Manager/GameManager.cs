@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
     }
     public void Retry()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void Home()
     {
